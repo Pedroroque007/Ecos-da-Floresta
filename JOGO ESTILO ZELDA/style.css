@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background: #101010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  border: 4px solid #ffffff;
+  background: #0f1f0f;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+}
